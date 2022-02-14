@@ -1,0 +1,80 @@
+html {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #EAE9E8;
+}
+
+@font-face {
+  font-family: 'MyriadProRegular';
+  src: url('fonts/MyriadProRegular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'MyriadProRegular';
+}
+
+.container {
+  margin: auto;
+  padding: 0 10%;
+}
+
+.program-link {
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.program-link img {
+  max-height: 3.5rem;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.program-link a {
+  margin: auto;
+  text-decoration: none;
+  width: 100%;
+  min-height: 15rem;
+  font-size: 1.5rem;
+  flex-grow: 1;
+  color: black;
+}
+
+.program-link a:hover {
+  color: gray;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin: 0 0 2rem 0;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
