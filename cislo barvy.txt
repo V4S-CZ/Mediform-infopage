@@ -1,0 +1,7 @@
+
+
+	číslo barvy je:
+
+	#EAE9E8
+
+	R-234  G-233  B-232
